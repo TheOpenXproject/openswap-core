@@ -1,0 +1,20 @@
+{
+  "name": "@openswap/core",
+  "version": "0.5.1",
+  "license": "MIT",
+  "description": "Core contracts for the OpenSwap protocol on Harmony",
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "repository": "https://github.com/TheOpenFinanceProject/openswap-core",
+  "keywords": [
+    "openswap",
+    "openswap contracts",
+    "harmony"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-helpers": "^0.5.6"
+  }
+}

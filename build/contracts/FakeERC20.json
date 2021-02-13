@@ -1,0 +1,48 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "amount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506040516101493803806101498339818101604052602081101561003357600080fd5b8101908080519060200190929190505050806000819055505060ef8061005a6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806370a08231146037578063aa8c217c14608c575b600080fd5b607660048036036020811015604b57600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505060a8565b6040518082815260200191505060405180910390f35b609260b3565b6040518082815260200191505060405180910390f35b600080549050919050565b6000548156fea264697066735822122017643d418a24fdd6620ac45c0dc09960c3b84f97179bc311671087593c9e809d64736f6c634300060c0033"
+}
