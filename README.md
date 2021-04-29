@@ -1,36 +1,43 @@
 # OpenSwap
 
 
-## Deployed Contracts
+## Deployed MAINNET Contracts
 
-   address public UniswapV2ERC20 = 0x3A0D7e3c9Be036B5fa3e8dBe5271B881Edc06597
 
-   address public UniswapV2Factory = 0xa430c9549A6F30D11C1d0aA2E193Faf512Cc9af2
+address public UniswapV2ERC20 = 0x2CAe71D35fed2C805218A7F5a9C7C7d460270B7e
 
-   address public UniswapV2Router02 = 0x7DBCbcf158ee9E8FCDd64d7b86922E11DF59d7D6
+address public UniswapV2Factory = 0xE18B9a3E13E73333E3e3393a832B19bed3212fe0
 
-    Init code hash for UniswapV2Pair is: 0xa214758cce75f2fe626fa13e0764d8aac8a4fd6295a93b3f1502beb3a28c94f2
+address public UniswapV2Router02 = 0xeaF842798d89c270cB8Ce275e76ba7ff7a440D1B
 
-   export SushiToken = 0xfE30a511Eb104A622BA3be79C91e9477394FcB49
+Init code hash for UniswapV2Pair is: 0x07485e9adc617d3faaf26eb65b82e545da65d9e8d96d9788287a60629e01e48c
 
-   export SushiBar = 0x6F96Be5343ae11f4f67dF8a4B9e029fC91dC94c4
+export SushiToken = 0x19aFb2C6e8814040d7e89d33e385fd84EFc44d06
 
-   export SushiMaker = 0x5D9E2ce49AAF9e2E8E0667CA94e3a21779e098F8
+export TokenLock = 0x8DbAeEF28a20443d5D6AEc18A8894556762e6182
 
-   export MasterChef = 0xd12ACa719E32bb4ce2dccFd9426B1E1eDaE90166
-*-----*
+export SushiMaker = 0xf6465533e9367107ad4CA80dB02dD4E8384d1fd1
 
-   address public Sushiswap_ZapIn_General_V2 = 0xb1E93f4Ff243Ba00327a98DC8645EB1796cc896c
+export MasterChef = 0x40b556e32C4D6275F2e6E214b9DC8D22FEEB9bCF
 
-   address public Sushiswap_ZapOut_General_V1 = 0xBeacADBb024451D1d783A61D2B6e53003Bc63FA3
 
-   //export const SUSHI_ROLL = "0x16E58463eb9792Bc236d8860F5BC69A81E26E32B";
+## Deployed TESTNET Contracts
 
-   export const LP_TOKEN_SCANNER = "0xdCb22AAEF5E418D87C1e3FcC9d05e507dDC5F493";
+address public UniswapV2ERC20 = 0x5663eAD519595D9E9A4c4F311b794295f634845c
 
-   address public OrderBook = 0x24D81a5329C17D21241411C5f684492E2B185ea4
+address public UniswapV2Factory = 0x0199AA5D1807c6dfcabfd38d3902995745cF9090
 
-   address public Settlement = 0x903C99250d77Af2D9971087272a9335F38A6ffFA
+address public UniswapV2Router02 = 0x7Af92E512f5e81FC52F28ED106Bb601F48B9Adc5
+
+Init code hash for UniswapV2Pair is: 0x07485e9adc617d3faaf26eb65b82e545da65d9e8d96d9788287a60629e01e48c
+
+export SushiToken = 0x759c7F96fD1F98Ab28b6f09b3282f0cC62c9A3Cc
+
+export TokenLock = 0x5c350B5fc5dd76A6F452b23d8a4Cc511EEDf01CD
+
+export SushiMaker = 0x796182331685f51F2F96f78494255ec551786759
+
+export MasterChef = 0xfA7187681cfdCb39EDc8f5A90ae0e71D15863743
 
 ## License
 

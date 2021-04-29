@@ -1,18 +1,25 @@
+// SPDX-License-Identifier: MIT
+
 pragma solidity 0.6.12;
 
-
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./Ownable.sol";
 
 
 // SushiToken with Governance.
-contract SushiToken is ERC20("SushiToken", "SUSHI"), Ownable {
+contract SushiToken is ERC20("OpenSwap Token", "oSWAP"), Ownable {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
     function mint(address _to, uint256 _amount) public onlyOwner {
         _mint(_to, _amount);
         _moveDelegates(address(0), _delegates[_to], _amount);
     }
+    constructor (address _devlock) public {
+            _mint(_devlock, 14400000000000000000000000); //Mint dev tokens immidiatly and lock them in contract //14,400,000 OpenSwap
+    }
 
+
+    // Copied and modified from SUSHISWAP code:
+    
     // Copied and modified from YAM code:
     // https://github.com/yam-finance/yam-protocol/blob/master/contracts/token/YAMGovernanceStorage.sol
     // https://github.com/yam-finance/yam-protocol/blob/master/contracts/token/YAMGovernance.sol
@@ -115,9 +122,9 @@ contract SushiToken is ERC20("SushiToken", "SUSHI"), Ownable {
         );
 
         address signatory = ecrecover(digest, v, r, s);
-        require(signatory != address(0), "SUSHI::delegateBySig: invalid signature");
-        require(nonce == nonces[signatory]++, "SUSHI::delegateBySig: invalid nonce");
-        require(now <= expiry, "SUSHI::delegateBySig: signature expired");
+        require(signatory != address(0), "OpenSwap::delegateBySig: invalid signature");
+        require(nonce == nonces[signatory]++, "OpenSwap::delegateBySig: invalid nonce");
+        require(now <= expiry, "OpenSwap::delegateBySig: signature expired");
         return _delegate(signatory, delegatee);
     }
 
@@ -147,7 +154,7 @@ contract SushiToken is ERC20("SushiToken", "SUSHI"), Ownable {
         view
         returns (uint256)
     {
-        require(blockNumber < block.number, "SUSHI::getPriorVotes: not yet determined");
+        require(blockNumber < block.number, "OpenSwap::getPriorVotes: not yet determined");
 
         uint32 nCheckpoints = numCheckpoints[account];
         if (nCheckpoints == 0) {
@@ -220,7 +227,7 @@ contract SushiToken is ERC20("SushiToken", "SUSHI"), Ownable {
     )
         internal
     {
-        uint32 blockNumber = safe32(block.number, "SUSHI::_writeCheckpoint: block number exceeds 32 bits");
+        uint32 blockNumber = safe32(block.number, "OpenSwap::_writeCheckpoint: block number exceeds 32 bits");
 
         if (nCheckpoints > 0 && checkpoints[delegatee][nCheckpoints - 1].fromBlock == blockNumber) {
             checkpoints[delegatee][nCheckpoints - 1].votes = newVotes;

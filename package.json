@@ -1,6 +1,6 @@
 {
   "name": "openswap-core",
-  "version": "0.6.0",
+  "version": "0.7.5",
   "license": "MIT",
   "description": "Core contracts for the OpenSwap protocol on Harmony",
   "files": [
