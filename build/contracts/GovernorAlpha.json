@@ -714,7 +714,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1285,
-        "sourceUnit": 5444,
+        "sourceUnit": 3148,
         "src": "1803:26:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -817,7 +817,7 @@
                           "referencedDeclaration": 66,
                           "src": "2329:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_SushiToken_$5443",
+                            "typeIdentifier": "t_contract$_SushiToken_$3147",
                             "typeString": "contract SushiToken"
                           }
                         },
@@ -828,7 +828,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 13072,
+                        "referencedDeclaration": 3591,
                         "src": "2329:17:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -976,7 +976,7 @@
                           "referencedDeclaration": 66,
                           "src": "2639:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_SushiToken_$5443",
+                            "typeIdentifier": "t_contract$_SushiToken_$3147",
                             "typeString": "contract SushiToken"
                           }
                         },
@@ -987,7 +987,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 13072,
+                        "referencedDeclaration": 3591,
                         "src": "2639:17:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1438,7 +1438,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_SushiToken_$5443",
+              "typeIdentifier": "t_contract$_SushiToken_$3147",
               "typeString": "contract SushiToken"
             },
             "typeName": {
@@ -1446,10 +1446,10 @@
               "id": 65,
               "name": "SushiToken",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5443,
+              "referencedDeclaration": 3147,
               "src": "3411:10:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SushiToken_$5443",
+                "typeIdentifier": "t_contract$_SushiToken_$3147",
                 "typeString": "contract SushiToken"
               }
             },
@@ -3175,7 +3175,7 @@
                       "referencedDeclaration": 66,
                       "src": "7151:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SushiToken_$5443",
+                        "typeIdentifier": "t_contract$_SushiToken_$3147",
                         "typeString": "contract SushiToken"
                       }
                     },
@@ -3209,10 +3209,10 @@
                         "name": "SushiToken",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5443,
+                        "referencedDeclaration": 3147,
                         "src": "7159:10:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_SushiToken_$5443_$",
+                          "typeIdentifier": "t_type$_t_contract$_SushiToken_$3147_$",
                           "typeString": "type(contract SushiToken)"
                         }
                       },
@@ -3227,13 +3227,13 @@
                       "src": "7159:18:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_SushiToken_$5443",
+                        "typeIdentifier": "t_contract$_SushiToken_$3147",
                         "typeString": "contract SushiToken"
                       }
                     },
                     "src": "7151:26:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_SushiToken_$5443",
+                      "typeIdentifier": "t_contract$_SushiToken_$3147",
                       "typeString": "contract SushiToken"
                     }
                   },
@@ -3565,7 +3565,7 @@
                               "referencedDeclaration": 66,
                               "src": "7406:5:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_SushiToken_$5443",
+                                "typeIdentifier": "t_contract$_SushiToken_$3147",
                                 "typeString": "contract SushiToken"
                               }
                             },
@@ -3576,7 +3576,7 @@
                             "lValueRequested": false,
                             "memberName": "getPriorVotes",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 5188,
+                            "referencedDeclaration": 2892,
                             "src": "7406:19:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -9416,7 +9416,7 @@
                                 "referencedDeclaration": 66,
                                 "src": "11186:5:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_SushiToken_$5443",
+                                  "typeIdentifier": "t_contract$_SushiToken_$3147",
                                   "typeString": "contract SushiToken"
                                 }
                               },
@@ -9427,7 +9427,7 @@
                               "lValueRequested": false,
                               "memberName": "getPriorVotes",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 5188,
+                              "referencedDeclaration": 2892,
                               "src": "11186:19:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -14286,7 +14286,7 @@
                         "referencedDeclaration": 66,
                         "src": "14275:5:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_SushiToken_$5443",
+                          "typeIdentifier": "t_contract$_SushiToken_$3147",
                           "typeString": "contract SushiToken"
                         }
                       },
@@ -14297,7 +14297,7 @@
                       "lValueRequested": false,
                       "memberName": "getPriorVotes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 5188,
+                      "referencedDeclaration": 2892,
                       "src": "14275:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -18095,7 +18095,7 @@
       },
       {
         "attributes": {
-          "SourceUnit": 5444,
+          "SourceUnit": 3148,
           "absolutePath": "/home/alexandre/dev/sushiswap/contracts/SushiToken.sol",
           "file": "./SushiToken.sol",
           "scope": 1285,
@@ -18302,7 +18302,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "totalSupply",
-                                  "referencedDeclaration": 13072,
+                                  "referencedDeclaration": 3591,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -18489,7 +18489,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "totalSupply",
-                                  "referencedDeclaration": 13072,
+                                  "referencedDeclaration": 3591,
                                   "type": "function () view external returns (uint256)"
                                 },
                                 "children": [
@@ -18942,7 +18942,7 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "SushiToken",
-                  "referencedDeclaration": 5443,
+                  "referencedDeclaration": 3147,
                   "type": "contract SushiToken"
                 },
                 "id": 65,
@@ -20920,7 +20920,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 5443,
+                                  "referencedDeclaration": 3147,
                                   "type": "type(contract SushiToken)",
                                   "value": "SushiToken"
                                 },
@@ -21355,7 +21355,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "getPriorVotes",
-                                      "referencedDeclaration": 5188,
+                                      "referencedDeclaration": 2892,
                                       "type": "function (address,uint256) view external returns (uint256)"
                                     },
                                     "children": [
@@ -27439,7 +27439,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "getPriorVotes",
-                                          "referencedDeclaration": 5188,
+                                          "referencedDeclaration": 2892,
                                           "type": "function (address,uint256) view external returns (uint256)"
                                         },
                                         "children": [
@@ -32787,7 +32787,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "getPriorVotes",
-                              "referencedDeclaration": 5188,
+                              "referencedDeclaration": 2892,
                               "type": "function (address,uint256) view external returns (uint256)"
                             },
                             "children": [
@@ -36796,7 +36796,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-28T12:52:38.617Z",
+  "updatedAt": "2021-05-08T10:40:12.644Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

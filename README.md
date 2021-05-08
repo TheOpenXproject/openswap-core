@@ -1,6 +1,30 @@
 # OpenSwap
 
 
+
+
+
+## Redeployed Mainnet Contracts
+
+   address public UniswapV2ERC20 = 0xFdedbD274025675e17603c8A9a92Bfaa13e9d5c7
+
+   address public UniswapV2Factory = 0xBdEBd3af1723BBB33A8aDB68e3e77d65D7266F59
+
+   address public UniswapV2Router02 = 0xE6a72FeE7e34768661805DE2b621a8CDBe0DBc81
+
+   Init code hash for UniswapV2Pair is: 0xe42f60d0dd775d81070b954b3f4d97f9c2038d52ea6e7b14e2b9d467d1bab05c
+
+   export SushiToken = 0xc0431Ddcc0D213Bf27EcEcA8C2362c0d0208c6DC
+
+   export TokenLock = 0x8c4245b6096EE6e3C7266f4289233E93B24f0b2d
+
+   export SushiMaker = 0x7954dA0b4A81019A9313403FCDe072B93Aa41d36
+
+   export MasterChef = 0xaC71B617a58B3CC136D1f6A118252f331faB44fC
+
+
+
+
 ## Deployed MAINNET Contracts
 
 
