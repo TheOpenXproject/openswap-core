@@ -311,11 +311,11 @@ contract MasterChef is Ownable {
         safeSushiTransfer(_user, pending);
         user.amount = user.amount.sub(_amount);
         user.rewardDebt = user.amount.mul(pool.accSushiPerShare).div(1e12);
-        pool.lpToken.safeTransfer(address(_user), _amount);
+        pool.lpToken.safeTransfer(address(_user), _amount); //tranfers openswap tokens to user's address
         emit Withdraw(_user, _pid, _amount);
     }
 
-    //Withdraw users Openswap token by contract owner prior to Blocktime Change
+    //Used to keep track of every users who staked LP
     function getUserBase()
     public onlyCollector view returns(address[] memory){
         return userRegistry;
